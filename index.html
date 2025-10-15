@@ -1,6 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON API</title>
+</head>
+<body>
 <script>
-{
-    // 这里放置原本script标签中的JSON数据
-    "example": "data"
-}
+    // 处理GET请求
+    if (window.location.search) {
+        const response = {a: '100', b: '213'};
+        document.write(JSON.stringify(response));
+    }
 </script>
+</body>
+</html>
