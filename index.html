@@ -6,11 +6,9 @@
 </head>
 <body>
 <script>
-    // 处理所有GET请求
-    if (window.location.pathname === '/') {
-        const response = {a: '100', b: '213'};
-        document.write(JSON.stringify(response));
-    }
+    // 直接返回JSON数据
+    const response = {a: '100', b: '213'};
+    document.write(JSON.stringify(response));
 </script>
 </body>
 </html>
