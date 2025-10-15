@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<script>
+if (location.pathname === '/api') {
+    const data = {"results":[{"gender":"male","name":{"title":"Mr","first":"Marcus","last":"Petersen"}}]};
+    document.write(JSON.stringify(data));
+}
+</script>
+</html>
